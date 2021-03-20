@@ -1,0 +1,81 @@
+
+/*=============================
+Template Name: MDB Bootstrp 5
+Template URI: 
+Author: Kazi Golam Mostafa
+Author URI: 
+=============================*/
+
+/*Common CSS Start*/
+html body{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Common CSS End*/
+
+/*Home Section Start*/
+#home-section{
+    background-image: url(../../img/pexels-agung-pandit-wiguna-3401403.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    background-size: cover;
+}
+#home-section .overlay{
+    background-color: rgba(0,0,0,.5);
+    min-height: 800px;
+}
+#home-section .card{
+    opacity: .7;
+}
+
+
+.navbar{
+    background-color: rgba(41, 43, 44, .7);
+}
+.navbar-icon{
+    color: white;
+    font-size: 2rem;
+}
+.navbar-toggler-icon{
+    color: whitesmoke;
+}
+
+
+nav ul li a,
+.card .card-body a{
+    color: whitesmoke !important;
+    text-decoration: none !important;
+}
+nav ul li a:hover{
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+.card .card-body a:hover{
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+
+
+
+/*Home Section End*/
+
+footer p a{
+    color: #ffd700;
+}
+
+footer p a:hover{
+    color: #daa520;
+}
+
